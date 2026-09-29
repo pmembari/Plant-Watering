@@ -1,0 +1,37 @@
+site_name: Plant Watering System
+site_description: Documentation for a smart plant watering prototype with sensor monitoring and a Flutter mobile application.
+site_url: https://pmembari.github.io/Plant-Watering/
+repo_url: https://github.com/pmembari/Plant-Watering
+repo_name: pmembari/Plant-Watering
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: green
+      accent: light green
+    - scheme: slate
+      primary: green
+      accent: light green
+
+nav:
+  - Home: index.md
+  - System Overview: overview.md
+  - Hardware: hardware.md
+  - Mobile App: mobile-app.md
+  - Communication Flow: communication.md
+  - Repository Structure: repository.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+plugins:
+  - search

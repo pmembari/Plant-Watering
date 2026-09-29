@@ -2,7 +2,7 @@
 
 A smart plant-watering prototype that combines environmental sensing, soil-moisture monitoring, network communication, irrigation control, and a Flutter mobile interface.
 
-![Plant watering prototype](../images/IMG_4556.JPG){ width="700" }
+![Plant watering prototype](https://raw.githubusercontent.com/pmembari/Plant-Watering/main/images/IMG_4556.JPG){ width="700" }
 
 ## What the project does
 
